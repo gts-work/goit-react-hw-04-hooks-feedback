@@ -39,8 +39,8 @@ export default function Feedback() {
   };
 
   const countTotalFeedback = () => {
-    const count = good + neutral + bad;
-    return count || 0;
+    const total = good + neutral + bad;
+    return total || 0;
   };
 
   return (
